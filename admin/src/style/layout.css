@@ -1,0 +1,61 @@
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+aside.ant-layout-sider{
+  overflow-y: auto;
+  flex: 0 0 254px !important;
+  max-width: 254px !important;
+  min-width: 254px !important;
+  width: 254px !important;
+}
+.ant-layout-sider.ant-layout-sider-collapsed{
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
+
+header.ant-layout-header{
+  display: flex;
+  justify-content: space-between;
+}
+.right-corner {
+  padding: 0 24px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.user-details img {
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+.user-details {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+span.username, span.useremail{
+  line-height: 20px;
+}
+span.ant-badge.notified-icon span {
+  font-size: 18px;
+}
+main.ant-layout-content {
+  background-color: #fff;
+}

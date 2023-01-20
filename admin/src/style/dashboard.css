@@ -1,0 +1,37 @@
+.cardWidgets-section{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px
+}
+.widgetCards{
+  flex: 1;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.avarage p {
+  margin-bottom: 0;
+}
+p.month {
+  font-size: 12px;
+}
+p.percentage {
+  text-align: right;
+}
+.ant-card-body{
+  padding: 12px;
+}
+.chart-section {
+  margin: 50px 0;
+}
+section.ant-layout {
+  min-height: 100vh;
+}
